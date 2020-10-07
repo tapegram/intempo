@@ -1,0 +1,18 @@
+# ninja log v5
+# start_time end_time mtime command hash
+1	32	1602108068930517240	src/test.reast	9bf25018416b8f4b
+2	34	1602108068931775178	src/models/hello.reast	8781f80061c34f31
+32	190	1602108069089292086	src/test.d	8fd918daba0af83d
+34	192	1602108069089294937	src/models/hello.d	876aa3f2bd67a8e0
+190	206	1602108069104751990	src/test.cmj	e63d2d5f7ed05c48
+190	206	1602108069104751990	src/test.cmi	e63d2d5f7ed05c48
+190	206	1602108069104751990	/Users/tavish/projects/intempo/api/src/test.bs.js	e63d2d5f7ed05c48
+192	207	1602108069105834958	src/models/hello.cmj	b5eb6023c10fa4f6
+192	207	1602108069105834958	src/models/hello.cmi	b5eb6023c10fa4f6
+192	207	1602108069105834958	/Users/tavish/projects/intempo/api/src/models/hello.bs.js	b5eb6023c10fa4f6
+0	10	1602108068931775178	src/models/hello.d	e1f5d342006fc3fc
+2	31	1602108091395423282	src/models/something.reast	dc8c58b2d0a5d3a7
+31	39	1602108091404435132	src/models/something.d	4a7f101261e170e1
+39	54	1602108091418709281	src/models/something.cmj	2ea4e90b5628737d
+39	54	1602108091418709281	src/models/something.cmi	2ea4e90b5628737d
+39	54	1602108091418709281	/Users/tavish/projects/intempo/api/src/models/something.bs.js	2ea4e90b5628737d

@@ -2,7 +2,8 @@ const express = require('express')
 const app = express()
 const passport = require('passport')
 const {
-  users
+  users,
+  hello
 } = require('./controllers')
 
 /**
@@ -47,6 +48,8 @@ const asyncHandler = fn => (req, res, next) => {
 app.options(`*`, (req, res) => {
   res.status(200).send()
 })
+
+app.get(`/greetings/hello`, asyncHandler(hello.sayHello))
 
 app.post(`/users/register`, asyncHandler(users.register))
 
